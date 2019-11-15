@@ -1,7 +1,7 @@
 console.log(isPrime(104));
 
 function isPrime(number) {
-  if (number < 2) console.log(`Prime numbers can't be smaller than 2.`);
+  if (number < 2) return false;
   else if (number === 2 || number === 3) return true;
   let limit = Math.floor(Math.sqrt(number));
 
