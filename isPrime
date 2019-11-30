@@ -1,4 +1,4 @@
-console.log(isPrime(104));
+console.log(isPrime(enter_a_number));
 
 function isPrime(number) {
   if (number < 2) return false;
